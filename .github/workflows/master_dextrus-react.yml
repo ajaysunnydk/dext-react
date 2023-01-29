@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'dextrus-react'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_92AE9E50D1C74BEAAD01F7093B5378D0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C553B3E3BFCC441786DE5041F733958D }}
           package: .
