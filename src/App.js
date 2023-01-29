@@ -2,8 +2,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Select from 'react-select'
 import Header from './Header';
-import axios from 'axios';
-import cors from 'cors';
+import * as axios from 'axios';
 import js_beautify from 'js-beautify'
 
 function App() {
