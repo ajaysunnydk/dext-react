@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Select from 'react-select'
 import Header from './Header';
+import axios from 'axios';
 import js_beautify from 'js-beautify'
 
 function App() {
@@ -18,8 +19,6 @@ function App() {
   var reqBody;
   var data;
   const [respData, setRespData] = useState('');
-  
-  const axios = require('axios');
 
   const handleSubmit = (event) => {
     event.preventDefault();
