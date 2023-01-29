@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Select from 'react-select'
 import Header from './Header';
-import * as axios from 'axios';
+require('axios');
 import js_beautify from 'js-beautify'
 
 function App() {
