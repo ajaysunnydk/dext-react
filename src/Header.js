@@ -6,8 +6,8 @@ function Header() {
                 <h2 className="heading">Dextrus</h2>
             </div>
             <div className="right">
-                <a href="#" className="link">Settings</a>
-                <a href="#" className="link">Logout</a>
+                <a href="https://github.com" className="link">Settings</a>
+                <a href="https://github.com" className="link">Logout</a>
             </div>
         </nav>
     )
