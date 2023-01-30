@@ -4,6 +4,8 @@ import Select from 'react-select'
 import Header from './Header';
 import axios from 'axios';
 import js_beautify from 'js-beautify'
+import Footer from './Footer';
+import Login from './components/Login';
 
 function App() {
 
@@ -73,6 +75,8 @@ function App() {
         Response Body: JSON
         <textarea spellCheck='false' defaultValue={respData}></textarea>
       </div>
+      {/* <Login></Login>
+      <Footer year="2022" devName="Ajay Sunny"></Footer> */}
     </div>
   );
 }

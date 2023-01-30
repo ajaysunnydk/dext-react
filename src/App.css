@@ -46,6 +46,8 @@ Select{
   width: 90vw;
   margin-top: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
 }
 textarea{
   width: 86vw;
